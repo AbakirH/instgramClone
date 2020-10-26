@@ -29,7 +29,6 @@ class FeedViewController: UIViewController,UITableViewDelegate, UITableViewDataS
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        print("Here I'm calling the api")
         
         
         let query = PFQuery(className: "Post")
