@@ -31,8 +31,7 @@ class LoginViewController: UIViewController {
             
             
             else{
-                print("It was not gucci")
-                print("Error \(error)")
+                print("login failed")
             }
             
         }
@@ -53,7 +52,6 @@ class LoginViewController: UIViewController {
             
             else{
                 print("login failed")
-                print("Error \(error)")
             }
         }
     }

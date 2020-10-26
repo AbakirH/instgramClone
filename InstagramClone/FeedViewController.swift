@@ -42,7 +42,6 @@ class FeedViewController: UIViewController,UITableViewDelegate, UITableViewDataS
             }
             
             else{
-                print("Error : \(error)")
             }
         }
     }
