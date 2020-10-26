@@ -47,12 +47,12 @@ class LoginViewController: UIViewController {
        
         user.signUpInBackground { (success, error) in
             if success {
-                print("It was gucci")
+                print("login succeeded")
                 self.performSegue(withIdentifier: "loginSegue", sender: nil)
             }
             
             else{
-                print("It was not gucci")
+                print("login failed")
                 print("Error \(error)")
             }
         }
